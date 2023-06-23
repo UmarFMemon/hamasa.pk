@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Fixing Message</title>
+  
+</head>
+<body>
+  <div id="container">
+    <img src="logo1.png" alt="Logo" id="logo">
+    <h1 id="heading">We are working on it</h1>
+    <p id="text">and we'll get back live soon</p>
+    <p id="text">Call <a href="tel:+923377029888">+92 337 702 9888</a></p>
+    <p id="text">Whatsapp <a href="https://api.whatsapp.com/send/?phone=%2B923377029888&text&type=phone_number&app_absent=0">+92 337 702 9888</a></p>
+    <p id="text">Email: <a href="mailto:talk.hamasa@gmail.com">talk.hamasa@gmail.com</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<style>
+    body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#logo {
+  width: 260px;
+  margin-bottom: 20px;
+}
+
+#heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#text {
+  font-size: 20px;
+  margin: 8px;
+  color: #666;
+}
+a{
+
+    text-decoration: none;
+}
+</style>
